@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/techdom/Projects/antigravity/nomad-list-prd/app/page.tsx"],"sourcesContent":["```javascript\nimport { HeroSection } from \"@/components/hero-section\"\nimport { CityFilter } from \"@/components/city-filter\"\nimport { CityGrid } from \"@/components/city-grid\"\nimport { Footer } from \"@/components/footer\"\nimport { useState } from \"react\"\n\nexport default function Home() {\n  const [selectedContinent, setSelectedContinent] = useState(\"all\")\n\n  return (\n    <main className=\"min-h-screen\">\n      <HeroSection />\n      <section id=\"cities\" className=\"py-16 px-4 md:px-8\">\n        <div className=\"max-w-7xl mx-auto\">\n          <CityFilter \n            selectedContinent={selectedContinent} \n            onFilterChange={setSelectedContinent} \n          />\n          <CityGrid selectedContinent={selectedContinent} />\n        </div>\n      </section>\n      <Footer />\n    </main>\n  )\n}\n```\n"],"names":[],"mappings":"AAAA,EAAE,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;AA0BH,CAAC,CAAC,CAAC"}}]
+}

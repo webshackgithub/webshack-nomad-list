@@ -1,0 +1,78 @@
+[00:00:01.725] Server  LOG     
+[00:00:01.726] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.726] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.726] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.726] Server  LOG     
+[00:00:01.726] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.726] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.726] Server  LOG     
+[00:00:01.775] Server  LOG      ✓ Ready in 1600ms
+[00:00:40.993] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:40.993] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:40.993] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765001635235}
+[00:01:48.211] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:48.211] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:48.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765001702453}
+[00:20:52.449] Server  LOG      ✓ Compiled in 29ms
+[00:25:39.483] Server  LOG      ✓ Compiled in 32ms
+[00:35:39.953] Server  LOG      ✓ Compiled in 56ms
+[00:35:48.534] Browser ERROR   uncaughtError: TypeError: onFilterChange is not a function. (In 'onFilterChange(country)', 'onFilterChange' is undefined)
+[00:35:49.939] Browser ERROR   uncaughtError: TypeError: onFilterChange is not a function. (In 'onFilterChange(country)', 'onFilterChange' is undefined)
+[00:35:51.204] Server  LOG      ✓ Compiled in 23ms
+[00:35:53.501] Server  LOG      ✓ Compiled in 36ms
+[00:40:13.154] Server  ERROR    ⨯ TypeError: "" is not a function
+[00:40:13.267] Server  ERROR    ⨯ TypeError: "" is not a function
+[00:40:13.270] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:40:13.409] Server  ERROR    ⨯ TypeError: "" is not a function
+[00:40:13.531] Server  ERROR    ⨯ TypeError: "" is not a function
+[00:40:13.849] Browser ERROR   uncaughtError: TypeError: "" is not a function
+[00:40:28.855] Browser ERROR   ./app/page.tsx:26:3
+Parsing ecmascript source code failed
+  24 |   )
+  25 | }
+> 26 | ```
+     |   ^
+> 27 | 
+     | ^
+
+Unterminated template
+[00:40:34.806] Browser ERROR   ./app/page.tsx:26:3
+Parsing ecmascript source code failed
+  24 |   )
+  25 | }
+> 26 | ```
+     |   ^
+> 27 | 
+     | ^
+
+Unterminated template
+[00:40:44.772] Browser ERROR   ./app/page.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   )
+  28 | }
+> 29 | ```
+     |   ^
+> 30 | 
+     | ^
+
+Unterminated template
+[00:40:50.089] Browser ERROR   ./app/page.tsx:29:3
+Parsing ecmascript source code failed
+  27 |   )
+  28 | }
+> 29 | ```
+     |   ^
+> 30 | 
+     | ^
+
+Unterminated template
+[00:41:13.301] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:41:13.301] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:41:13.301] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765004067567}
+[03:01:20.195] Server  LOG      ✓ Compiled in 89ms
+[03:04:00.141] Server  LOG      ✓ Compiled in 45ms
+[03:05:53.585] Server  LOG      ✓ Compiled in 25ms
+[03:18:35.402] Server  LOG      ✓ Compiled in 52ms
+[03:18:59.072] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
