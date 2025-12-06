@@ -2,6 +2,7 @@
 import { useScroll, useTransform } from "framer-motion";
 import React from "react";
 import { GoogleGeminiEffect } from "@/components/ui/google-gemini-effect";
+import { Globe } from "lucide-react";
 
 export function HeroSection() {
   const ref = React.useRef(null);
@@ -22,7 +23,12 @@ export function HeroSection() {
       ref={ref}
     >
       <GoogleGeminiEffect
-        title="🌍 노마드 리스트"
+        title={
+          <span className="flex items-center justify-center gap-4">
+            <Globe className="text-neutral-200 animate-[spin_10s_linear_infinite] w-12 h-12 md:w-20 md:h-20" />
+            노마드 리스트!!!
+          </span>
+        }
         description="전 세계 최고의 디지털 노마드 도시를 찾아보세요"
         pathLengths={[
           pathLengthFirst,

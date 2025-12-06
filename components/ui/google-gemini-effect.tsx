@@ -15,7 +15,7 @@ export const GoogleGeminiEffect = ({
     className,
 }: {
     pathLengths: MotionValue[];
-    title?: string;
+    title?: React.ReactNode;
     description?: string;
     className?: string;
 }) => {
